@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\kangtaehee\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gkib
+
+PATH: 
+  C:\Program Files (x86)\NAT Service;C:\ProgramData\Boxstarter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\TortoiseGit\bin;C:\Users\kangtaehee\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\dotnet\;C:\Users\kangtaehee\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\kangtaehee\AppData\Local\Programs\Python\Python36-32\;C:\Users\kangtaehee\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\kangtaehee\AppData\Local\Microsoft\WindowsApps;C:\Users\kangtaehee\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kangtaehee\AppData\Local\afreeca;C:\Users\kangtaehee\AppData\Roaming\npm;C:\Users\kangtaehee\AppData\Local\GitHubDesktop\bin;C:\Users\kangtaehee\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\kangtaehee\AppData\Local\JetBrains\Toolbox\scripts
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/gkib: Not found
+      at Request.params.callback [as _callback] (C:\Users\kangtaehee\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\kangtaehee\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\kangtaehee\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\kangtaehee\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "getfilename",
+    "version": "1.0.0",
+    "description": "",
+    "main": "getClassId.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
